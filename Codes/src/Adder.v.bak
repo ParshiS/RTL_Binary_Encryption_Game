@@ -1,0 +1,13 @@
+
+module adder(a,b,sum_ones,sum_tens);
+input [3:0] a,b;
+output reg [3:0] sum_ones,sum_tens;
+// reg [4:0] sum;
+always@(a,b)
+ begin
+  //   sum=a+b;
+sum_ones= ((a+b) % 10);
+sum_tens = ((a+b) / 10);
+ end
+endmodule
+

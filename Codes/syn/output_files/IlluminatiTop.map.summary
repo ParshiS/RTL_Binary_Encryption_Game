@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 05 14:41:10 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : IlluminatiTop
+Top-level Entity Name : IlluminatiTop
+Family : Cyclone IV E
+Total logic elements : 1,205
+    Total combinational functions : 1,091
+    Dedicated logic registers : 449
+Total registers : 449
+Total pins : 88
+Total virtual pins : 0
+Total memory bits : 160
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

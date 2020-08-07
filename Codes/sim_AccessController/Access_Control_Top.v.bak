@@ -1,0 +1,28 @@
+// ECE 5440/6370
+// Final Project
+// Author: Ashwini Chaudhari, 8046
+// Title: Access Control Top module
+// Description: This module is for password authentication of multi user using ROM.
+// Add any log, design considerations, reasons for major changes etc.
+
+module Access_Control_Top(clk, reset, Pwd_In, pwd_BS, user_id_inp, user_id_BS, Sev_seg_pwd, Sev_seg_user_id, Red_LED, Green_LED, RLED_pwd, GLED_pwd, Logout_signal, address_out_user_id);
+
+	input [3:0] Pwd_In, user_id_inp;
+	input pwd_BS, user_id_BS, clk, reset, Logout_signal;
+	output Red_LED, Green_LED, RLED_pwd, GLED_pwd;
+	output [6:0] Sev_seg_pwd, Sev_seg_user_id;
+	output [4:0] address_out_user_id;
+
+	wire BPush_pwd_out, BPush_user_id;
+	wire [3:0] SevSeg_userID , SevSeg_PWD;
+        
+       	Button_Shaper BS1(pwd_BS, reset, clk, BPush_pwd_out);
+        Button_Shaper BS2(user_id_BS, reset, clk, BPush_user_id);
+
+        user_id_rom_controller user_id(user_id_inp, clk, reset, BPush_user_id, Green_LED, Red_LED, SevSeg_userID, Logout_signal, address_out_user_id);
+	password_controller pwd(Pwd_In, clk, reset, BPush_pwd_out, GLED_pwd, RLED_pwd, SevSeg_PWD, Logout_signal, address_out_user_id, Green_LED);
+
+        Seven_segment_display SSD1(SevSeg_userID, Sev_seg_user_id);
+        Seven_segment_display SSD2(SevSeg_PWD, Sev_seg_pwd);
+	
+endmodule

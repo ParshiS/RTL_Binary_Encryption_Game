@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at score_level2.v(20): always construct contains both blocking and non-blocking assignments File: D:/ADD/PROJECT/src/score_level2.v Line: 20
+Warning (10268): Verilog HDL information at password_controller.v(32): always construct contains both blocking and non-blocking assignments File: D:/ADD/PROJECT/src/password_controller.v Line: 32
+Warning (10268): Verilog HDL information at user_id_rom_controller.v(35): always construct contains both blocking and non-blocking assignments File: D:/ADD/PROJECT/src/user_id_rom_controller.v Line: 35
+Info (10281): Verilog HDL Declaration information at GameControl.v(9): object "Level3_Count" differs only in case from object "LEVEL3_COUNT" in the same scope File: D:/ADD/PROJECT/src/GameControl.v Line: 9
+Info (10281): Verilog HDL Declaration information at GameControl.v(9): object "LogOut" differs only in case from object "LOGOUT" in the same scope File: D:/ADD/PROJECT/src/GameControl.v Line: 9

@@ -1,0 +1,130 @@
+Archive Project report for IlluminatiTop
+Sun May 05 02:58:33 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun May 05 02:58:33 2019 ;
+; Revision Name          ; IlluminatiTop                         ;
+; Top-level Entity Name  ; IlluminatiTop                         ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/ADD/PROJECT/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/ADD/PROJECT/syn/IlluminatiTop.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'IlluminatiTop.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4874 megabytes
+    Info: Processing ended: Sun May 05 02:58:33 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++--------------------------------------------------------------+
+; Files Archived                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; ../src/Access_Control_Top.v                                  ;
+; ../src/Adder.v                                               ;
+; ../src/Button_Shaper.v                                       ;
+; ../src/Count1000.v                                           ;
+; ../src/Count1000_WatchDog.v                                  ;
+; ../src/Counter.v                                             ;
+; ../src/Digit.v                                               ;
+; ../src/digitTimer.v                                          ;
+; ../src/GameControl.v                                         ;
+; ../src/IlluminatiTop.v                                       ;
+; ../src/LoadRegister_4bit.v                                   ;
+; ../src/OneMilliSec.v                                         ;
+; ../src/OneSecond.v                                           ;
+; ../src/OneSecond_WatchDog.v                                  ;
+; ../src/password_controller.v                                 ;
+; ../src/password_ROM.v                                        ;
+; ../src/password_ROM_test.mif                                 ;
+; ../src/Random_Number_Generator.v                             ;
+; ../src/score_level2.v                                        ;
+; ../src/score_level3.v                                        ;
+; ../src/seven_segment_symbol.v                                ;
+; ../src/SSD_Router.v                                          ;
+; ../src/user_id_rom.v                                         ;
+; ../src/user_id_rom_controller.v                              ;
+; ../src/user_id_rom_test.mif                                  ;
+; ../src/verifier_level3.v                                     ;
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf ;
+; D:/ADD/PROJECT/src/Access_Control_Top.v                      ;
+; D:/ADD/PROJECT/src/Adder.v                                   ;
+; D:/ADD/PROJECT/src/Button_Shaper.v                           ;
+; D:/ADD/PROJECT/src/Count1000.v                               ;
+; D:/ADD/PROJECT/src/Count1000_WatchDog.v                      ;
+; D:/ADD/PROJECT/src/Counter.v                                 ;
+; D:/ADD/PROJECT/src/Digit.v                                   ;
+; D:/ADD/PROJECT/src/digitTimer.v                              ;
+; D:/ADD/PROJECT/src/GameControl.v                             ;
+; D:/ADD/PROJECT/src/IlluminatiTop.v                           ;
+; D:/ADD/PROJECT/src/LoadRegister_4bit.v                       ;
+; D:/ADD/PROJECT/src/OneMilliSec.v                             ;
+; D:/ADD/PROJECT/src/OneSecond.v                               ;
+; D:/ADD/PROJECT/src/OneSecond_WatchDog.v                      ;
+; D:/ADD/PROJECT/src/password_controller.v                     ;
+; D:/ADD/PROJECT/src/password_ROM.v                            ;
+; D:/ADD/PROJECT/src/password_ROM_test.mif                     ;
+; D:/ADD/PROJECT/src/Random_Number_Generator.v                 ;
+; D:/ADD/PROJECT/src/score_level2.v                            ;
+; D:/ADD/PROJECT/src/score_level3.v                            ;
+; D:/ADD/PROJECT/src/seven_segment_symbol.v                    ;
+; D:/ADD/PROJECT/src/SSD_Router.v                              ;
+; D:/ADD/PROJECT/src/user_id_rom.v                             ;
+; D:/ADD/PROJECT/src/user_id_rom_controller.v                  ;
+; D:/ADD/PROJECT/src/user_id_rom_test.mif                      ;
+; D:/ADD/PROJECT/src/verifier_level3.v                         ;
+; IlluminatiTop.qpf                                            ;
+; IlluminatiTop.qsf                                            ;
++--------------------------------------------------------------+
+
+

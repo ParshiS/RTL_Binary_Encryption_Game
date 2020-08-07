@@ -1,0 +1,64 @@
+D:/ADD/PROJECT/src/score_level3.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/score_level3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module score_level3
+
+Top level modules:
+	score_level3
+
+} {} {}} D:/ADD/PROJECT/src/OneSecond.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/OneSecond.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module OneSecond
+
+Top level modules:
+	OneSecond
+
+} {} {}} D:/ADD/PROJECT/src/Count1000.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/Count1000.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Count1000
+
+Top level modules:
+	Count1000
+
+} {} {}} D:/ADD/PROJECT/src/verifier_level3.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/verifier_level3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Verifier_level3
+
+Top level modules:
+	Verifier_level3
+
+} {} {}} D:/ADD/PROJECT/sim_GameControl/GameControl.v {1 {vlog -work work -stats=none {D:\ADD\PROJECT\sim_GameControl\GameControl.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GameControl
+
+Top level modules:
+	GameControl
+
+} {} {}} D:/ADD/PROJECT/src/adder_test.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/adder_test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Adder_tb
+
+Top level modules:
+	Adder_tb
+
+} {} {}} D:/ADD/PROJECT/src/OneMilliSec.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/OneMilliSec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module OneMilliSec
+
+Top level modules:
+	OneMilliSec
+
+} {} {}} D:/ADD/PROJECT/src/Adder.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/ADD/PROJECT/src/score_level2.v {1 {vlog -work work -stats=none D:/ADD/PROJECT/src/score_level2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module score_level2
+
+Top level modules:
+	score_level2
+
+} {} {}}

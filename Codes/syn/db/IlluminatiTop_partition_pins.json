@@ -1,0 +1,357 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HEX0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RUsrLED",
+					"strict" : false
+				},
+				{
+					"name" : "GUsrLED",
+					"strict" : false
+				},
+				{
+					"name" : "RPwdLED",
+					"strict" : false
+				},
+				{
+					"name" : "GPwdLED",
+					"strict" : false
+				},
+				{
+					"name" : "SuccLev2LEDR",
+					"strict" : false
+				},
+				{
+					"name" : "SuccLev2LEDG",
+					"strict" : false
+				},
+				{
+					"name" : "SuccLev3LEDR",
+					"strict" : false
+				},
+				{
+					"name" : "SuccLev3LEDG",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerUnitsIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerUnitsIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerUnitsIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerTensIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerTensIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerTensIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerTensIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PlayerUnitsIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "UserIDIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "UserIDIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "UserIDIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UserIDIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PwdIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PwdIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PwdIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PwdIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RNG_Load_in",
+					"strict" : false
+				},
+				{
+					"name" : "Level_Select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Level_Select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Game_Load",
+					"strict" : false
+				},
+				{
+					"name" : "Player_Load_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

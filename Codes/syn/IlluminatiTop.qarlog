@@ -1,0 +1,40 @@
+Quartus Prime Archive log --	D:/ADD/PROJECT/syn/IlluminatiTop.qarlog
+
+Archive:	D:/ADD/PROJECT/syn/IlluminatiTop.qar
+Date:		Sun May 05 02:58:33 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/ADD/PROJECT/src/Access_Control_Top.v
+D:/ADD/PROJECT/src/Adder.v
+D:/ADD/PROJECT/src/Button_Shaper.v
+D:/ADD/PROJECT/src/Count1000.v
+D:/ADD/PROJECT/src/Count1000_WatchDog.v
+D:/ADD/PROJECT/src/Counter.v
+D:/ADD/PROJECT/src/Digit.v
+D:/ADD/PROJECT/src/GameControl.v
+D:/ADD/PROJECT/src/IlluminatiTop.v
+D:/ADD/PROJECT/src/LoadRegister_4bit.v
+D:/ADD/PROJECT/src/OneMilliSec.v
+D:/ADD/PROJECT/src/OneSecond.v
+D:/ADD/PROJECT/src/OneSecond_WatchDog.v
+D:/ADD/PROJECT/src/Random_Number_Generator.v
+D:/ADD/PROJECT/src/SSD_Router.v
+D:/ADD/PROJECT/src/digitTimer.v
+D:/ADD/PROJECT/src/password_ROM.v
+D:/ADD/PROJECT/src/password_ROM_test.mif
+D:/ADD/PROJECT/src/password_controller.v
+D:/ADD/PROJECT/src/score_level2.v
+D:/ADD/PROJECT/src/score_level3.v
+D:/ADD/PROJECT/src/seven_segment_symbol.v
+D:/ADD/PROJECT/src/user_id_rom.v
+D:/ADD/PROJECT/src/user_id_rom_controller.v
+D:/ADD/PROJECT/src/user_id_rom_test.mif
+D:/ADD/PROJECT/src/verifier_level3.v
+D:/ADD/PROJECT/syn/IlluminatiTop.qpf
+D:/ADD/PROJECT/syn/IlluminatiTop.qsf
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 29 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

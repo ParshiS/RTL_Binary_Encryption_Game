@@ -1,0 +1,41 @@
+module SSD_Router(Level, Password, RNG1, RNG2, PlayerTIn, PlayerUIn, FRndOrig, FRndEncryp, SRndEncryp, SRndOrig,
+ NumOut1, NumOut2, NumOut3, NumOut4, Encrypt_on1, Encrypt_on2, Encrypt_on3, Encrypt_on4);
+	
+	input [1:0] Level;
+	input [3:0] Password, RNG1, RNG2, PlayerTIn, PlayerUIn, FRndOrig, FRndEncryp, SRndEncryp, SRndOrig;
+	output [3:0] NumOut1, NumOut2, NumOut3, NumOut4;
+	output Encrypt_on1, Encrypt_on2, Encrypt_on3, Encrypt_on4;
+	reg [3:0] NumOut1, NumOut2, NumOut3, NumOut4;
+	reg Encrypt_on1, Encrypt_on2, Encrypt_on3, Encrypt_on4;
+
+	always@(Level, Password, RNG1, RNG2, PlayerTIn, PlayerUIn, FRndOrig, FRndEncryp, SRndEncryp, SRndOrig)
+		begin
+			case(Level)
+				1: begin
+					NumOut1=Password; Encrypt_on1 = 0;
+					NumOut2=FRndOrig; Encrypt_on2 = 0;
+					NumOut3=FRndEncryp; Encrypt_on3 = 1;
+					NumOut4=4'b1111; Encrypt_on4 = 1;		
+				   end
+				2: begin
+					NumOut1=Password; Encrypt_on1 = 0;
+					NumOut2=SRndOrig; Encrypt_on2 = 0;
+					NumOut3=SRndEncryp; Encrypt_on3 = 1;
+					NumOut4=4'b1111; Encrypt_on4 = 1;		
+				   end
+				3: begin
+					NumOut1=RNG1; Encrypt_on1 = 1;
+					NumOut2=RNG2; Encrypt_on2 = 1;
+					NumOut3=PlayerTIn; Encrypt_on3 = 1;
+					NumOut4=PlayerUIn; Encrypt_on4 = 1;		
+				   end
+				default: begin
+					NumOut1=Password; Encrypt_on1 = 0;
+					NumOut2=4'b1111; Encrypt_on2 = 1;
+					NumOut3=4'b1111; Encrypt_on3 = 1;
+					NumOut4=4'b1111; Encrypt_on4 = 1;		
+				   	 end
+			endcase
+		end
+
+endmodule

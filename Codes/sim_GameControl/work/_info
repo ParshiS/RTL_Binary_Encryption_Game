@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vadder
+Z0 !s110 1556937531
+!i10b 1
+!s100 T4DMoo>d?D`BjI0OzV[gi2
+I71Gm4z0C728B6c6V@MPWN3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/ADD/PROJECT/sim_GameControl
+Z3 w1556937243
+8D:/ADD/PROJECT/src/Adder.v
+FD:/ADD/PROJECT/src/Adder.v
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1556937531.000000
+!s107 D:/ADD/PROJECT/src/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vAdder_tb
+R0
+!i10b 1
+!s100 3?Bo;dTJNE9@8bIO4e<[13
+IJ^Mkjm;K4=OjoaDB]1P]31
+R1
+R2
+w1556937244
+8D:/ADD/PROJECT/src/adder_test.v
+FD:/ADD/PROJECT/src/adder_test.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ADD/PROJECT/src/adder_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/adder_test.v|
+!i113 1
+R6
+R7
+n@adder_tb
+vCount1000
+R0
+!i10b 1
+!s100 W`gYHG<>H>WDfhzRIWWVF1
+I@X7dCW;>ifgdJ<DB7[SI^3
+R1
+R2
+Z8 w1556937255
+8D:/ADD/PROJECT/src/Count1000.v
+FD:/ADD/PROJECT/src/Count1000.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ADD/PROJECT/src/Count1000.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/Count1000.v|
+!i113 1
+R6
+R7
+n@count1000
+vGameControl
+R0
+!i10b 1
+!s100 3<aPkQfWEkklnbLJ7f:AW1
+IFCKXHMo=oIPeJHI7nTm6L0
+R1
+R2
+w1556639536
+8D:\ADD\PROJECT\sim_GameControl\GameControl.v
+FD:\ADD\PROJECT\sim_GameControl\GameControl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1556937530.000000
+!s107 D:\ADD\PROJECT\sim_GameControl\GameControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\ADD\PROJECT\sim_GameControl\GameControl.v|
+!i113 1
+R6
+R7
+n@game@control
+vOneMilliSec
+R0
+!i10b 1
+!s100 Rb`GXBg;=GVN^U2c=6@0<2
+IiUaeOR523>[_C6IJZ2SNB0
+R1
+R2
+R8
+8D:/ADD/PROJECT/src/OneMilliSec.v
+FD:/ADD/PROJECT/src/OneMilliSec.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ADD/PROJECT/src/OneMilliSec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/OneMilliSec.v|
+!i113 1
+R6
+R7
+n@one@milli@sec
+vOneSecond
+R0
+!i10b 1
+!s100 Rk3YPaH8>9R18B1NWLiQo1
+I_fT?RXN^ghY[JREbZL:Md0
+R1
+R2
+R8
+8D:/ADD/PROJECT/src/OneSecond.v
+FD:/ADD/PROJECT/src/OneSecond.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ADD/PROJECT/src/OneSecond.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/OneSecond.v|
+!i113 1
+R6
+R7
+n@one@second
+vscore_level2
+Z9 !s110 1556937532
+!i10b 1
+!s100 T=<iz0a7UoZPd1[`f`]g]1
+I[S3zcEII4Eg<AV7>EPN1k3
+R1
+R2
+R3
+8D:/ADD/PROJECT/src/score_level2.v
+FD:/ADD/PROJECT/src/score_level2.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1556937532.000000
+!s107 D:/ADD/PROJECT/src/score_level2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/score_level2.v|
+!i113 1
+R6
+R7
+vscore_level3
+R9
+!i10b 1
+!s100 `n;XzLHOJ<Q^MEYFU]h]=1
+I?E3S5S^QURT;[VGTk1=Qg2
+R1
+R2
+R3
+8D:/ADD/PROJECT/src/score_level3.v
+FD:/ADD/PROJECT/src/score_level3.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/ADD/PROJECT/src/score_level3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/score_level3.v|
+!i113 1
+R6
+R7
+vVerifier_level3
+R0
+!i10b 1
+!s100 DKa<U^zXke>?i4@YLNP3N3
+IYFgUeek7a[nb2i<dK3U_<1
+R1
+R2
+R3
+8D:/ADD/PROJECT/src/verifier_level3.v
+FD:/ADD/PROJECT/src/verifier_level3.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ADD/PROJECT/src/verifier_level3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/ADD/PROJECT/src/verifier_level3.v|
+!i113 1
+R6
+R7
+n@verifier_level3
